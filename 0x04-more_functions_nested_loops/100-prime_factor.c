@@ -31,7 +31,7 @@ double _sqrt(double x)
  * @num: number to find
 */
 
-void largest_number_factor(long int num)
+void largest_prime_factor(long int num)
 {
 	int prmNu, largest;
 
@@ -61,7 +61,7 @@ void largest_number_factor(long int num)
 */
 int main(void)
 {
-	largest_number_factor(612852475143);
+	largest_prime_factor(612852475143);
 
 	return (0);
 }
