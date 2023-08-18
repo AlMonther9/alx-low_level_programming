@@ -10,7 +10,7 @@
 
 double _sqrt(double x)
 {
-	float sqrt. tmp;
+	float sqrt, tmp;
 
 	sqrt = x / 2;
 	tmp = 0;
