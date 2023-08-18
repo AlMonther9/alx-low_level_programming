@@ -1,4 +1,4 @@
-#include "main"
+#include <stdio.h>
 
 /**
  * _sqrt - finds the square root
@@ -61,7 +61,7 @@ void largest_number_factor(long int num)
 */
 int main(void)
 {
-	largest_prime_factor(612852475143);
+	largest_number_factor(612852475143);
 
 	return (0);
 }
