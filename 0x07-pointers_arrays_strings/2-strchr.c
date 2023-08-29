@@ -5,7 +5,7 @@
  * @c: character
  * @s: string
  * @NULL: if the character is not found
- * Return: s if found, NULL if else
+ * Return: s + i if found
 */
 
 char *_strchr(char *s, char c)
@@ -17,10 +17,6 @@ char *_strchr(char *s, char c)
 		if (s[i] == c)
 		{
 			return (s + i);
-		}
-		else
-		{
-			return ('\0');
 		}
 	}
 	return ('\0');
