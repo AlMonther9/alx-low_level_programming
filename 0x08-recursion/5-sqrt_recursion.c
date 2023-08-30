@@ -21,7 +21,7 @@ int square(int n, int val)
 	}
 	else if (val * val < n)
 	{
-		return (sqaure(n, val + 1));
+		return (square(n, val + 1));
 	}
 	else
 	{
