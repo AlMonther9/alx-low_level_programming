@@ -2,14 +2,14 @@
 #include <stdio.h>
 
 /**
- * is_prime_number - checks if n is a prime
+ * is_prime_number - check if n is a prime number
  * @n: int
  * @othrn: int
  * Return: 0 or 1
 */
 
-int is_prime_number(int n)
 int check_prime(int n, int othrn);
+int is_prime_number(int n)
 {
 	return (check prime(n, 2));
 }
