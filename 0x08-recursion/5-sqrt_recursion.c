@@ -2,7 +2,6 @@
 
 /**
  * _sqrt_recursion - function that returns the natural square root of a number
- * square - a function that does
  * @n: int
  * @val: square root
  * Return: int
@@ -14,6 +13,14 @@ int _sqrt_recursion(int n)
 {
 return (square(n, 1));
 }
+
+/**
+ * square - finds square root
+ * @n: int
+ * @val: square root
+ * Return: int
+*/
+
 int square(int n, int val)
 {
 	if (val * val == n)
