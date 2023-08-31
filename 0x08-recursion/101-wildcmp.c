@@ -22,7 +22,8 @@ char *move_past_star(char *s2)
  * Return: 1 if identical, 0 if false
 */
 
-int inception(char *s1,char *s2);
+int inception(char *s1,char *s2)
+
 {
 	int ret = 0;
 
